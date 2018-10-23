@@ -8,3 +8,4 @@ computer_choise = choises[randint(0, 2)]
 
 # show the computer's cjoise in the terminal window
 print("Computer chooses: ", computer_choise)
+
