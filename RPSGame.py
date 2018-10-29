@@ -49,5 +49,4 @@ while player is False:
 
     # reset the game loop and start over again
     player = False
-    computer_choice = choices[randint(0,2)]     
-
+    computer_choice = choices[randint(0,2)]
