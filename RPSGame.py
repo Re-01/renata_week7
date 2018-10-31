@@ -61,6 +61,9 @@ elif player == "Scissors":
 
 elif player== "quit":
     exit()
+    # reset the game loop and start over again
+    player = False
+    computer = choices[randint(0,2)]  
 
 else:
     #choice that is being made, is not from the available choices
@@ -96,6 +99,4 @@ else:
         print("You've had enough losing")
         exit()
 
-    # reset the game loop and start over again
-    player = False
-    computer = choices[randint(0,2)]    
+      
