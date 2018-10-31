@@ -2,7 +2,7 @@ from random import randint
 
 #  storing weapons in an array
 choices = ["Rock", "Paper", "Scissors"]
-
+player = False
 
 player_lives = 5
 computer_lives = 5
@@ -11,8 +11,17 @@ computer_lives = 5
 computer = choices[randint(0,2)]
 
 
-# randomly picking weapon for the player
-player = choices[randint(0,2)]
+# show the computer's choise in the terminal window
+print("Computer chooses", computer)
+
+
+# set up our loop
+while player is False:
+    # set player to True by making a selection
+    print("Choose your weapon!")
+    player = input("Rock, Paper or Scissors?")
+
+    print(player, "\n")
 
     # check to compare that same item has not been picked before
 if (player == computer):
@@ -87,5 +96,6 @@ else:
         print("You've had enough losing")
         exit()
 
+    # reset the game loop and start over again
     player = False
     computer = choices[randint(0,2)]    
