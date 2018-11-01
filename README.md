@@ -19,3 +19,8 @@ The computer chooses first; just [follow the prompts].
 Built with [Python3](https://docs.python.org/3/).
 
 Enjoy!
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4fce19f533813d3b2d546f97ad01a3ef7b05a2f1
